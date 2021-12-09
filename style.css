@@ -1,7 +1,28 @@
 html, body {
   margin: 0;
   padding: 0;
+  text-align: center;
+  color: rgb(255,255,255);
+  text-transform:uppercase;
+  text-shadow:3px 3px 3px grey;
+  font-family: monospace;
+  font-size: 18px;
+  line-height: .4;
+}
+body{
+
+  background-image: url('https://rmfleath.sirv.com/tolunay-genc-forest.gif');
+  background-size: 100%;
+  background-position: absolute;
+  background-repeat: no-repeat;
 }
 canvas {
+  position: absolute;
+  z-index: -1;
+  margin: auto;
+  border-radius: 50px;
+  border-width: 20px;
+  top: 15%;
+  left: 5%;
   display: block;
 }
